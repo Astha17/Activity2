@@ -1,0 +1,99 @@
+ /*************************************
+Pages
+**************************************/
+ body {
+   font-family: 'Open Sans', sans-serif;
+   
+ }
+ a {
+   color: #000080;
+ 
+ }
+a {
+ text-decoration: none;
+ }
+
+img {
+max-width: 100%;
+}
+
+#hes
+{
+	text-align : center;
+	 padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+#logo{
+	text-align :center;
+	margin :0;
+}
+
+ header {
+   background:  #4acfee;
+   border-color: #599a68;
+ }
+ 
+ nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+  }
+  
+  nav ul  {
+    list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+  display: inline-block;
+
+}
+ 
+ #wrapper {
+   max-width: 940px;
+   margin: 0 auto;
+   padding: 0 5%;
+  
+ }
+ 
+
+
+.myimg {
+    float:left;
+    width:250px;
+    height:350px;
+    margin:20px;
+    border-radius: 20px;
+}
+ footer {
+ font-size: 0.75em;
+ text-align: center;
+ clear: both;
+ padding-top: 50px;
+ color: #ccc;
+ }
+ nav a.selected, nav a:hover {
+  color: red;
+}
+ 
+ /*************************************
+UNO
+**************************************/
+#quick 
+{
+	text-align: center;	
+}
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+  
+}
